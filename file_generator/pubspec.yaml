@@ -1,9 +1,10 @@
 name: file_generator
-description: "A new Flutter package project."
+description: A Dart package for generating files and Bloc structure.
 version: 0.0.1
-#Author: <Al Baraa Al Harthi https://github.com/albaraa-prog>
+#author: <Al Baraa Al Harthi https://github.com/albaraa-prog>
+repository: https://github.com/albaraa-prog/file_generator
+issue_tracker: https://github.com/albaraa-prog/file_generator/issues
 homepage:
-
 environment:
   sdk: ">=3.4.4 <4.0.0"
   flutter: ">=1.17.0"
@@ -11,13 +12,16 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  bloc: ^8.1.4
+  flutter_lints: ^3.0.0
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  path_provider: ^2.1.4
+  path: ^1.8.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^3.0.0
-  flutter_bloc: ^8.1.6
-  equatable: ^2.0.5
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
