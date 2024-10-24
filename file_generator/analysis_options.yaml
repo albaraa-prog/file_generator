@@ -1,4 +1,8 @@
+analyzer:
+  errors:
+    cast_from_null_always_fails: ignore
+    depend_on_referenced_packages: ignore
+    file_names: ignore
 include: package:flutter_lints/flutter.yaml
-
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options
